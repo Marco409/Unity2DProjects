@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 11409233}
   - component: {fileID: 11409232}
   - component: {fileID: 11409231}
+  - component: {fileID: 11409235}
   m_Layer: 0
   m_Name: Building
   m_TagString: Untagged
@@ -228,6 +229,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11409235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11409230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e581297795b022489e7590cd878673a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollSpeed: 0.2
+  meshRenderer: {fileID: 11409232}
 --- !u!1 &84560819
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,6 +347,7 @@ GameObject:
   - component: {fileID: 632392174}
   - component: {fileID: 632392173}
   - component: {fileID: 632392172}
+  - component: {fileID: 632392176}
   m_Layer: 0
   m_Name: Platform
   m_TagString: Untagged
@@ -429,6 +445,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &632392176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632392171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e581297795b022489e7590cd878673a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollSpeed: 0.7
+  meshRenderer: {fileID: 632392173}
 --- !u!1 &665492946
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,6 +471,7 @@ GameObject:
   - component: {fileID: 665492949}
   - component: {fileID: 665492948}
   - component: {fileID: 665492947}
+  - component: {fileID: 665492951}
   m_Layer: 0
   m_Name: Sky
   m_TagString: Untagged
@@ -538,6 +569,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &665492951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665492946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e581297795b022489e7590cd878673a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollSpeed: 0.1
+  meshRenderer: {fileID: 665492948}
 --- !u!1 &744321282
 GameObject:
   m_ObjectHideFlags: 0
